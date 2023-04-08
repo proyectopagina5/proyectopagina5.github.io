@@ -1,0 +1,36 @@
+<html>
+<head>
+<title> fddfh</title>
+</head>
+
+<body>
+
+<?php
+
+
+echo "APELLIDO PATERNO: ".$_REQUEST['ap'];
+echo "<br>";
+echo "APELLIDO MATERNO: ".$_REQUEST['am'];
+echo "<br>";
+echo "NOMBRE: ".$_REQUEST['nombre'];
+echo "<br>";
+echo "EDAD: ".$_REQUEST['edad'];
+echo "<br>";
+echo "DOMICILIO: ".$_REQUEST['domicilio'];
+echo "<br>";
+echo "TELEFONO: ".$_REQUEST['telefono'];
+
+
+echo "<br>";
+echo "PROVINCIA: ".$_REQUEST['provincia'];
+echo "<br>";
+
+echo "CODIGO POSTAL: ".$_REQUEST['codigo'];
+
+echo "<br>";
+
+echo "RECADOS: ".$_REQUEST['recados'];
+?>
+
+</body>
+</html>
